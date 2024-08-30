@@ -2,6 +2,7 @@ let currentIndex = 0;
 const parrafos = document.querySelectorAll('.parrafo');
 const anteriorBtn = document.getElementById('anterior');
 const siguienteBtn = document.getElementById('siguiente');
+const inicioBtn = document.getElementById('inicio');
 
 function updateButtons() {
     anteriorBtn.disabled = currentIndex === 0;
@@ -27,6 +28,12 @@ siguienteBtn.addEventListener('click', () => {
         currentIndex++;
         mostrarParrafo(currentIndex);
     }
+
+inicioBtn.addEventListener('click', () => {
+            currentIndex = 0;
+            mostrarParrafo(currentIndex);
+        
+    });
 });
 
 // Inicialización
