@@ -1,0 +1,85 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    margin: auto;
+}
+
+h2 {
+    color: #000000;
+}
+
+.parrafo {
+    display: none;
+}
+
+.parrafo.activo {
+    display: block;
+}
+
+.navegacion {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.navegacion button {
+    display:inline-block;
+    margin: auto;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.navegacion button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.footer{
+    text-align: center;
+}
+
+.img{
+    float: left;
+    width: 400px;
+    margin-right: 20px;
+    margin-bottom: 200px;
+}
+
+.imgparrafocorto{
+    display: block;
+    width: 400px;
+    margin: auto;
+
+}
+
+.img3{
+    display: block;
+    width: 800px;
+    height: 400px;
+
+    margin: auto;
+}
+
+.tittle{
+    text-align: center;
+}
